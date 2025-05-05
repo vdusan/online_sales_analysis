@@ -7,10 +7,12 @@ class Product:
         
         
     def info(self):
+        """ Info o proizvodu """
         return f"{self.name} {self.price} ({self.quantity})"
     
     
     def update_quantity(self, new_quantity):
+        """Azurira kolicinu proizvoda"""
         self.quantity = new_quantity
     
 
