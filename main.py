@@ -5,15 +5,13 @@ from product_manager import ProductManager
 pm = ProductManager()
 
 # Dodajemo proizvode
-pm.add_product(Product("Mleko",100,50))
-pm.add_product(Product("Hleb",55,200))
-pm.add_product(Product("Sir",250,25))
+pm.add_product(Product("Kafa",100,50))
+pm.add_product(Product("Brasno",55,200))
+pm.add_product(Product("Jogurt",250,25))
 
-# Prikaz svih proizvoda
-pm.products_info()
 
-# Ukupna vrednost inventara
-print(f"Ukupna vrednost inventara je: {pm.total_inventory()} dinara")
+
+
 
 
 
