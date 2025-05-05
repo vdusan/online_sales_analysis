@@ -16,8 +16,6 @@ class ProductManager:
     def total_inventory(self):
         """ Ukupna vrednost inventara"""
         return sum(p.price * p.quantity for p in self.products)
-    
-    
         
 
             
